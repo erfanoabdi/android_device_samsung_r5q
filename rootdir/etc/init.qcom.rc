@@ -27,6 +27,10 @@ on init
     # Disable vendor overlay
     mount none /vendor/lost+found /vendor/overlay bind
 
+    # Vibrator
+    chown system system /sys/class/timed_output/vibrator/enable
+    chown system system /sys/class/timed_output/vibrator/intensity
+
 on boot
     # Fingerprint
     chown system system /sys/class/lcd/panel/mask_brightness
