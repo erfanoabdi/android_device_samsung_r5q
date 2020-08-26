@@ -928,6 +928,9 @@
          in hardware. -->
     <bool name="config_setColorTransformAccelerated">true</bool>
 
+    <!-- Maximum color temperature, in Kelvin, supported by Night display. -->
+    <integer name="config_nightDisplayColorTemperatureMax">6144</integer>
+
     <!-- Whether Hearing Aid profile is supported -->
     <bool name="config_hearing_aid_profile_supported">true</bool>
 
